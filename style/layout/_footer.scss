@@ -43,17 +43,20 @@
     }
     &:hover {
       transform: scale(1.1) translateY(-2px);
-      .fa-twitter {
-        color: #00acee;
-      }
-      .fa-instagram {
-        color: #c13584;
-      }
       .fa-linkedin {
         color: #4875b4;
       }
-      .fa-codepen {
-        color: #212121;
+      .fa-github {
+        color: #969696;
+      }
+      .fa-hackerrank {
+        color: #00EB63;
+      }
+      .fa-cloud {
+        color: #C62221;
+      }
+      .fa-link {
+        color: #43E660;
       }
     }
   }
