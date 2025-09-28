@@ -51,11 +51,10 @@ export const experience = [
 ];
 
 export const skills = {
-    languages: ['Python', 'Bash', 'PowerShell', 'TypeScript/JavaScript', 'React', 'Node.js', 'Go (some)', 'C++ (some)'],
-    backendOps: ['Linux', 'APIs/REST', 'FastAPI/Flask', 'Docker', 'Logging/Monitoring'],
+    languages: ['Python', 'Bash', 'PowerShell', 'JS/TS', 'React', 'Node.js', 'C++', 'Go (some)'],
     dataTasks: ['Pandas', 'batch automation', 'scripting pipelines'],
-    frontend: ['React', 'Vite', 'Tailwind'],
-    practices: ['Observability', 'SLO thinking', 'runbooks', 'blameless postmortems', 'automate the boring stuff'],
+    frontend: ['React', 'Vite', 'Tailwind', 'Vue', 'Svelte'],
+    practices: ['Observability', 'SLO/Critical thinking', 'runbooks', 'automate the boring stuff'],
 };
 
 export const socials: LinkItem[] = [

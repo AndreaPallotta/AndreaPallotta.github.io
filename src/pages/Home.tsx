@@ -78,9 +78,6 @@ export default function Home() {
                             <b>Languages:</b> {skills.languages.join(', ')}
                         </div>
                         <div>
-                            <b>Backend & Ops:</b> {skills.backendOps.join(', ')}
-                        </div>
-                        <div>
                             <b>Data & Tasks:</b> {skills.dataTasks.join(', ')}
                         </div>
                         <div>
