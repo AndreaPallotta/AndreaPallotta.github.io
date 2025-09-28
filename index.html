@@ -1,13 +1,412 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AndreaPallotta</title>
-    </head>
-    <body>
-        <div id="root"></div>
-        <script type="module" src="/src/main.tsx"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Andrea Pallotta | Software Engineer</title>
+
+    <meta
+      name="keywords"
+      content="AndreaPallotta, javascript, personalwebsite, react, node, java, csec, security, web, mobile"
+    />
+    <meta name="description" content="Andrea Pallotta | Software Engineer" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicons/site.webmanifest" />
+    <meta name="theme-color" content="#36d1dc" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apallotta.github.io" />
+    <meta property="og:title" content="Andrea Pallotta | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Andrea Pallotta's Personal Website"
+    />
+    <meta
+      property="og:image"
+      content="https://apallotta.github.io/assets/website_preview.png"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+
+  <style></style>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is
+          <span class="text-color-main name">Andrea Pallotta</span
+          ><span class="name">.</span>
+          <br />
+          I like to use
+          <span class="text-color-main name">code</span>&nbsp;to help people!
+        </h1>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              style="clip-path: circle()"
+              class="img-fluid"
+              src="./assets/profile.jpg"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hi there! My name is Andrea and I am a software engineer student
+              at the Rochester Institute of Technology. When I'm not coding or
+              studying, you can usually find me listening to music or enjoying a
+              glass of wine. I'm also a huge fan of sports and spend my free
+              time reading about the latest developments in technology.
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm excited to be a part of the software engineering community and
+              to contribute to the development of new technologies that can
+              change the world. If you want to learn more about my work or just
+              want to chat, feel free to drop me a line!
+            </p>
+            <span class="about-wrapper__cta">
+              <a
+                href="https://drive.google.com/file/d/1XVA-1nSGBzeqpahLE-Wrm1VP-_7nFxue/view?usp=sharing"
+                target="_blank"
+                class="cta-btn cta-btn--resume"
+                >View My Resume</a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Ez-templates</h3>
+              <p class="project-wrapper__text-info">
+                Ez-Templates is an npx package that simplifies the process of
+                installing and setting up various web-related templates. With
+                Ez-Templates, you can quickly and easily create new projects
+                using a variety of popular templates without having to spend
+                time on manual configuration.
+              </p>
+              <br />
+              <p class="project-wrapper__text-info">
+                You can download and install pre-coded templates to save time
+                during development.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.npmjs.com/package/ez-templates"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >View on NPM</a
+                >
+                <a
+                  href="https://www.github.com/AndreaPallotta/EzWebTemplate#readme"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="github.com/AndreaPallotta/EzWebTemplate#readme"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded" style="padding: 1">
+                  <img
+                    src="./assets/ezt_logo.svg"
+                    style="
+                      image-rendering: pixelated;
+                      -ms-interpolation-mode: nearest-neighbor;
+                      height: 450px;
+                    "
+                    class="img-fluid"
+                    alt="Ez-templates Logo"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Confignition</h3>
+              <p class="project-wrapper__text-info">
+                Confignition is a versatile npm package for Node.js that
+                provides flexible configuration file parsing capabilities,
+                supporting multiple file formats, and remote loading of
+                configurations.
+              </p>
+              <br />
+              <p class="project-wrapper__text-info">
+                You can load local and remote configuration files with hot
+                reload and strict type parsing.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.npmjs.com/package/confignition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >View on NPM</a
+                >
+                <a
+                  href="https://www.github.com/AndreaPallotta/confignition#readme"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="github.com/AndreaPallotta/confignition#readme"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/confignition_logo.svg"
+                    style="
+                      image-rendering: pixelated;
+                      -ms-interpolation-mode: nearest-neighbor;
+                      height: 450px;
+                    "
+                    class="img-fluid"
+                    alt="Confignition Logo"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Rush Doc</h3>
+              <p class="project-wrapper__text-info">
+                A SwiftUI Application developed for school.
+              </p>
+              <br />
+              <p class="project-wrapper__text-info">
+                The idea is to facilitate the user in searching medical
+                assistance without having to worry about insurance coverage.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AndreaPallotta/RushDoc"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/AndreaPallotta/RushDoc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/rushdoc.png"
+                    class="img-fluid"
+                    alt="RushDoc Logo"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Research Paper</h3>
+              <p class="project-wrapper__text-info">
+                A research paper that compares different types of IoT pairing
+                authentication schemes.
+              </p>
+              <br />
+              <p class="project-wrapper__text-info">
+                The literature review aims to compare the analyzed
+                authentication schemes in terms of effectiveness, security and
+                ease of use.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/AndreaPallotta/CSEC_472_Group_2/blob/main/project/Group2_Final_Paper.pdf"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >View PDF</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/AndreaPallotta/CSEC_472_Group_2/blob/main/project/Group2_Final_Paper.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/research.png"
+                    class="img-fluid"
+                    alt="Research Preview"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Reach Out!</h2>
+        <div class="contact-wrapper">
+          <div style="display: inline-flex; gap: 2rem">
+            <a
+              href="mailto:andreapallotta.dev@gmail.com"
+              class="cta-btn cta-btn--resume"
+              ><i class="fa-solid fa-envelope"></i>
+              <span>Send an email</span></a
+            >
+            <a
+              href="https://linktr.ee/apallottadev"
+              target="_blank"
+              class="cta-btn cta-btn--resume"
+              ><i class="fa-solid fa-link"></i>
+              <span>Explore my Linktree</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/andreapallotta9"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/AndreaPallotta"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://linktr.ee/apallottadev"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linktree"
+          >
+            <i class="fa-solid fa-link"></i>
+          </a>
+          <a
+            href="https://www.hackerrank.com/andreapallotta_1"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="hackerrank"
+          >
+            <i class="fa-brands fa-hackerrank"></i>
+          </a>
+          <a
+            href="https://tryhackme.com/p/andreapallotta.d"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="tryhackme"
+          >
+            <i class="fa-solid fa-cloud"></i>
+          </a>
+        </div>
+        <div style="color: white">
+          <p>Copyright &copy; Andrea Pallotta <span id="year" /></p>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
 </html>
+
+<!-- Hello there! I hope you enjoyed reading about me! -->
